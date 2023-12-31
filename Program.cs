@@ -1,3 +1,14 @@
 ﻿using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+class Program
+{
+    static void Main()
+    {
+        Iphone iphone = new("1","15","56185151",256);
+        iphone.Ligar();
+        iphone.ReceberLigacao();
+        iphone.InstalarAplicativo("DIO");
+
+    }
+
+}
